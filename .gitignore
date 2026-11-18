@@ -1,0 +1,17 @@
+# 教材庫只放公開空白範本；不要加入憑證、執行環境或私人筆記。
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+client_secret*.json
+token*.json
+.aws/
+.ssh/
+.obsidian/
+.DS_Store
+private/
+node_modules/
